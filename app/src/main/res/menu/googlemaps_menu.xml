@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nomal"
+        android:title="기본형" />
+    <item
+        android:id="@+id/hybrid"
+        android:title="하이브리드" />
+    <item
+        android:id="@+id/satellite"
+        android:title="위성사진" />
+    <item
+        android:id="@+id/terrian"
+        android:title="지형도" />
+</menu>

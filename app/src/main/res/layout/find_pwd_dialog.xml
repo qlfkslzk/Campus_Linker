@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/change_pwd"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#787FF6"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:radius="10dp"
+        android:text="비밀번호 재설정"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edid_match_pwd"
+        app:layout_constraintStart_toStartOf="@+id/edid_match_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/edid_match_pwd"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/send_token"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="#787FF6"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:radius="10dp"
+        android:text="이메일로 토큰 보내기"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/edit_email_find_pwd"
+        app:layout_constraintStart_toStartOf="@+id/edit_email_find_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email_find_pwd" />
+
+    <EditText
+        android:id="@+id/edit_id_find_pwd"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/campus_edittext"
+        android:ems="10"
+        android:gravity="start|center_vertical"
+        android:hint="가입한 ID 입력"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_email_find_pwd"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/campus_edittext"
+        android:ems="10"
+        android:gravity="start|center_vertical"
+        android:hint="가입한 e_mail 입력"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edit_id_find_pwd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_id_find_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/edit_id_find_pwd" />
+
+    <EditText
+        android:id="@+id/edit_token"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/campus_edittext"
+        android:ems="10"
+        android:gravity="start|center_vertical"
+        android:hint="재설정 토큰 입력"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/send_token"
+        app:layout_constraintStart_toStartOf="@+id/send_token"
+        app:layout_constraintTop_toBottomOf="@+id/send_token" />
+
+    <EditText
+        android:id="@+id/edit_pwd"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/campus_edittext"
+        android:ems="10"
+        android:gravity="start|center_vertical"
+        android:hint="재설정할 패스워드"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edit_token"
+        app:layout_constraintStart_toStartOf="@+id/edit_token"
+        app:layout_constraintTop_toBottomOf="@+id/edit_token" />
+
+    <EditText
+        android:id="@+id/edid_match_pwd"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/campus_edittext"
+        android:ems="10"
+        android:gravity="start|center_vertical"
+        android:hint="패스워드 확인"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edit_pwd"
+        app:layout_constraintStart_toStartOf="@+id/edit_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/edit_pwd" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

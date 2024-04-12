@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "990572108587",
+    "project_id": "campus-linker-95d41",
+    "storage_bucket": "campus-linker-95d41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990572108587:android:7a4eef72c1e9e2da6d836e",
+        "android_client_info": {
+          "package_name": "com.campus.campuslinker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvgWHoxqzP2LoicGHOxcLN1pEJcR1KeaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990572108587:android:387d986cf1f57b9f6d836e",
+        "android_client_info": {
+          "package_name": "com.campuslinker.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvgWHoxqzP2LoicGHOxcLN1pEJcR1KeaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

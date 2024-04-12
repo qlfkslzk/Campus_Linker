@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Campus Linker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_maps">GoogleMaps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="firebase_notification_channel_id">Campus_Linker_Alarm</string>
+    <string name="title_activity_read_matchboard_maps">Read_matchboard_maps</string>
+    <string name="title_activity_make_matchboard_maps">Make_matchboard_maps</string>
+</resources>
