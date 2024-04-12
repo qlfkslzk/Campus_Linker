@@ -24,6 +24,16 @@
 + FCM(Firebase Cloud Messaging)
 ***
 
+### 실제 구현된 화면
+![KakaoTalk_20240412_140724564_04](https://github.com/qlfkslzk/Campus_Linker/assets/113421539/d86107c5-44ff-4060-bbbc-25206a719267)  
+![KakaoTalk_20240412_140724564_03](https://github.com/qlfkslzk/Campus_Linker/assets/113421539/181a1687-29a6-4200-a25e-27a0c8ee6f75)  
+![KakaoTalk_20240412_140724564_02](https://github.com/qlfkslzk/Campus_Linker/assets/113421539/8fc54f26-678e-4e5b-9ae3-c19c6a86c302)  
+![KakaoTalk_20240412_140724564_01](https://github.com/qlfkslzk/Campus_Linker/assets/113421539/478a3ab6-2ef4-4bc4-9b43-fb951bcc9e3d)  
+![KakaoTalk_20240412_140724564](https://github.com/qlfkslzk/Campus_Linker/assets/113421539/de889dbc-727d-4dfe-b4e0-a038ea5aba6b)
+
+
+
+
 ### 여담
  이 프로젝트는 아무래도 졸업작품인지라 지금까지 해봤던 다른 프로젝트들에 비해 정성이 많이 들어갔다.  
 한번도 사용해본적 없는 코틀린과 처음 구현해보는 기능들로 험한 꼴도 많이 당하고, 그로 인해 생각했던 것보다 시간이 많이 소요되기도 했다.  
