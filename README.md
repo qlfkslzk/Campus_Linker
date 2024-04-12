@@ -31,8 +31,7 @@
 ![KakaoTalk_20240412_140724564_01](https://github.com/qlfkslzk/Campus_Linker/assets/113421539/478a3ab6-2ef4-4bc4-9b43-fb951bcc9e3d)  
 ![KakaoTalk_20240412_140724564](https://github.com/qlfkslzk/Campus_Linker/assets/113421539/de889dbc-727d-4dfe-b4e0-a038ea5aba6b)
 
-
-
+***
 
 ### 여담
  이 프로젝트는 아무래도 졸업작품인지라 지금까지 해봤던 다른 프로젝트들에 비해 정성이 많이 들어갔다.  
