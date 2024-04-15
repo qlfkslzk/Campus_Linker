@@ -45,8 +45,8 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="구글 api 코드" />
- 
+            android:value="AIzaSyCkbDDR4ZmCPY2UvasfAjLM4Rfz7UWloIo" />
+<!--AIzaSyCkbDDR4ZmCPY2UvasfAjLM4Rfz7UWloIo  api 코드-->
         <activity
             android:name="com.campuslinker.app.Make_matchboard_maps"
             android:exported="false"
